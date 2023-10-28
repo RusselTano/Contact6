@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap");
+
+// variant of grey
+
+$grey1: #e6e6e6;
+$grey2: #9a9a9a;
+$grey3: #686868;
+$grey4: #2c2c2c;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  // background: #484844;
+}
+
+.container {
+  box-shadow: 15px 15px #000 ;
+  display: flex;
+  height: 500px;
+  width: 800px;
+  // border: 1px solid #000;
+  margin: auto;
+  background: #9c9a9a;
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+
+    h2 {
+      font-size: 3rem;
+      margin: 40px;
+    }
+
+    .box {
+      padding: 12px;
+      width: 62%;
+      border: 1px solid #000;
+      outline: none;
+      margin: 15px;
+      border-radius: 50px;
+      background: #ffffff;
+    }
+
+    #submit {
+      padding: 12px 30px;
+      width: 40%;
+      margin-top: 40px;
+      background: #000;
+      color: #fff;
+      font-weight: bold;
+      letter-spacing: 1px;
+      border: none;
+      transition: 0.3s ease-in-out;
+
+      &:hover {
+        cursor: pointer;
+        background: #58060a;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: #000;
+      margin-top: 30px;
+      transition: 0.3s ease-in-out;
+
+
+      &:hover {
+        cursor: pointer;
+        color: #58060a;
+      }
+    }
+  }
+}
+
+.side {
+  height: 100%;width: 50%;
+  background: url(../Contact3/img/woman-487067_1280.jpg) center/cover no-repeat;
+}
